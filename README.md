@@ -59,7 +59,7 @@ AirDJ/
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/your-username/AirDJ.git
+git clone https://github.com/Tamer-Rafidi/AirDJ.git
 cd AirDJ
 ```
 2. Install dependencies:
