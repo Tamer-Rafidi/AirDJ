@@ -20,10 +20,6 @@
 - ⏱️ **Real-Time Performance**  
   Multithreaded design ensures smooth audio playback, hand tracking, and UI updates simultaneously.
 
-## 🚀 Live Demo
-
-🔗 [Video]()
-
 ## 🛠️ Tech Stack
 **🔧 Audio & Signal Processing**   
 **Python** - Core language for audio and gesture logic
