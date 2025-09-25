@@ -23,6 +23,7 @@
 ## 🛠️ Tech Stack
 **🔧 Audio & Signal Processing**   
 **Python** - Core language for audio and gesture logic
+
 **Sounddevice & Soundfile** - Real-time playback and file I/O
 **SciPy** - Low-pass filter design 
 **NumPy** - Efficient numerical operations
