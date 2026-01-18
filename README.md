@@ -1,27 +1,27 @@
-# 🤚 AirDJ – Hand-Tracking Audio Controller
+#  AirDJ – Hand-Tracking Audio Controller
 
 **AirDJ** is a real-time hand-tracking audio controller that lets you manipulate music using intuitive hand gestures. By tracking your hands with a webcam, it enables dynamic control of **volume, playback speed, and filter effects**—all without touching any hardware. Perfect for live performance or interactive music experiments.
 
-## 🚀 Features
+##  Features
 
-- 🎶 **Gesture-Based Audio Control**  
+-  **Gesture-Based Audio Control**  
   Control multiple aspects of audio in real time using simple hand movements.
 
-- 🔊 **Volume & Low-Pass Filter (Right Hand)**  
+-  **Volume & Low-Pass Filter (Right Hand)**  
   Raise or lower your right hand to adjust volume
   Pinch thumb and index finger to modify low-pass filter cutoff
 
-- ⏩ **Playback Speed (Left Hand)**  
+-  **Playback Speed (Left Hand)**  
   Pinch thumb and index finger to control speed from slow-motion to fast-forward.
 
-- 👁️ **Live Visual Feedback**  
+-  **Live Visual Feedback**  
   Webcam feed displays circles, lines, and text overlays for all controlled parameters.
 
-- ⏱️ **Real-Time Performance**  
+-  **Real-Time Performance**  
   Multithreaded design ensures smooth audio playback, hand tracking, and UI updates simultaneously.
 
-## 🛠️ Tech Stack
-**🔧 Audio & Signal Processing**   
+##  Tech Stack
+** Audio & Signal Processing**   
 **Python** - Core language for audio and gesture logic      
 **Sounddevice & Soundfile** - Real-time playback and file I/O          
 **SciPy** - Low-pass filter design        
@@ -29,14 +29,14 @@
 **FFmpeg & Pydub** - Audio decoding, slicing, and mixing             
 **Multithreading & Parallel Processing** - Accelerates song analysis and rendering             
 
-**💻 Computer Vision & UI**  
+**Computer Vision & UI**  
 **MediaPipe** - Hand tracking and landmark detection         
 **OpenCV** - Webcam capture and live UI overlay          
 
-**⚡ Performance**    
+** Performance**    
 **Multithreading** - Audio runs in a separate thread for uninterrupted playback
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 AirDJ/
@@ -55,7 +55,7 @@ AirDJ/
 
 ```
 
-## 🧪 How to Use
+##  How to Use
 
 1. Clone the repo:
 ```bash
@@ -74,13 +74,13 @@ python main.py
 
 ⚠️ Make sure your webcam is connected and accessible.
 
-## 🧰 Future Improvements
+##  Future Improvements
 
-- 🌐 Web or desktop GUI for audio selection
-- 🖐️ Track additional gestures for effects like pan, reverb, or stutter
-- 📑 Playlist support for continuous live performance
+-  Web or desktop GUI for audio selection
+-  Track additional gestures for effects like pan, reverb, or stutter
+-  Playlist support for continuous live performance
 
-## 🤝 Contributing
+##  Contributing
 Contributions are welcome!
 1. Fork the repo
 2. Create a new branch (git checkout -b feature-name)
