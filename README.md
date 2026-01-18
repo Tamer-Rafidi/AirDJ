@@ -21,7 +21,7 @@
   Multithreaded design ensures smooth audio playback, hand tracking, and UI updates simultaneously.
 
 ##  Tech Stack
-** Audio & Signal Processing**   
+### Audio & Signal Processing:  
 **Python** - Core language for audio and gesture logic      
 **Sounddevice & Soundfile** - Real-time playback and file I/O          
 **SciPy** - Low-pass filter design        
@@ -29,11 +29,11 @@
 **FFmpeg & Pydub** - Audio decoding, slicing, and mixing             
 **Multithreading & Parallel Processing** - Accelerates song analysis and rendering             
 
-**Computer Vision & UI**  
+### Computer Vision & UI: 
 **MediaPipe** - Hand tracking and landmark detection         
 **OpenCV** - Webcam capture and live UI overlay          
 
-** Performance**    
+### Performance:    
 **Multithreading** - Audio runs in a separate thread for uninterrupted playback
 
 ##  Project Structure
